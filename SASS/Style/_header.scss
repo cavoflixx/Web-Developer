@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:$headerColor;
+    color: $textColor;
+
+    button{
+        background-color: red;
+        color: white;
+
+        &:hover{
+            background-color: white;
+            color: red;
+        }
+    }
+
+       
+}

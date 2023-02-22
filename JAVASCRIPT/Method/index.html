@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suret</title>
+</head>
+<body>
+    <h1>Suret programina xos gelmisiniz.</h1>
+    <h2 id="suret">Netice</h2>
+
+
+
+
+
+    <script>
+        let seher = prompt('Hardasiniz ?: ');
+        let seh = prompt('Hara gedirsiniz ?: ');
+        let mesafe = prompt('Mesafeni qeyd edin: ');
+        let suret = prompt('Sureti qeyd edin: ');
+        let netice = mesafe / suret ;
+
+
+        document.getElementById('suret').innerHTML = seher + ' sheherinden ' + seh + ' sheherine qeder olan mesafe ' + mesafe + ' km-dir. Masinin sureti ' + suret + ' km/saat olarsa, Siz ' + seh + ' sheherine ' + netice + ' saata catacaqsiniz.';
+    </script>
+</body>
+</html>

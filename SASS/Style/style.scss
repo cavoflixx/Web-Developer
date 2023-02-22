@@ -1,0 +1,8 @@
+$headerColor: silver;
+$textColor: yellow;
+
+@import './header';
+
+.contact{
+    background-color: $headerColor;
+}

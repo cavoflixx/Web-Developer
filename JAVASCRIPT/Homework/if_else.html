@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iF & ELSE</title>
+    <style>
+        .div{
+            height: 100px;
+            width: 200px;
+            background-color: blueviolet;
+            text-align: center;
+            padding-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <h1>If and Else</h1>
+<div class="div">
+    <h2 id="netice"></h2>
+</div>
+    <script>
+        let usarName = prompt('Adinizi qeyd edin:');
+        let userAge = prompt('Yasinizi qeyd edin:');
+        let netice;
+
+        if (userAge >= 40){
+            netice = 'siz qocasiniz';
+        } else {
+            netice = 'sen cavansan';
+
+
+
+        }
+
+        document.getElementById('netice').innerHTML = usarName + ' ' + netice
+    </script>
+</body>
+</html>
